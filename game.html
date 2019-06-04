@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>TYPE 101</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link rel="stylesheet" href="css/stylesquiz.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+</head>
+
+<body>
+    
+<nav>
+ <a href="info.html">APRENDE</a>
+  <a href="game.html">JUEGA</a>
+</nav>
+
+<header id="header">
+	<div class="title">
+		<h1 class="site-title"><a href="index.html">TYPE <span class="small">101</span></a></h1>
+	</div>
+	<div class="score">
+		<p id="score-counter">0</p>
+		<p class="points">Puntos</p>
+	</div>
+</header>
+
+<div id="content">
+	<div id="question-box"><p id="the-question"></p></div>
+	<div id="answer-box">
+		<ul>
+			<li class="answer">A: <span id="first-answer"></span></li>
+			<li class="answer">B: <span id="second-answer"></span></li>
+			<li class="answer">C: <span id="third-answer"></span></li>
+			<li class="answer">D: <span id="fourth-answer"></span></li>
+		</ul>
+	</div>
+</div>
+
+<div class="results-container">
+	<div class="results">
+		<h1>¡Felicidades!</h1>
+		<div class="result-text"><p>Completaste el test con un total de <span id="num-total">0</span> preguntas, lograste responder  <span id="num-correct">0</span> correctamente, y solo <span id="num-wrong">0</span> preguntas erroneas</div>
+        <a href="game.html" class="button">¿Otro intento?</a>
+	</div>
+</div>
+
+<footer id="footer">
+	<p>Hecho con amor por el quipo de TYPE101</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
